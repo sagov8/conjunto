@@ -1,0 +1,114 @@
+<div>
+  <div class="container text-center mb-5">
+    <h2 class="mt-4 titulo">Es el momento de tener el hogar de tus sueños</h2>
+    <p>
+      Da click en el botón de abajo para llenar el formulario
+      y contactarnos contigo.
+    </p>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Llenar formulario
+    </button>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Llene sus datos</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" id="floatingInput" placeholder="Juan Pablo">
+              <label for="floatingInput"> <i class="fas fa-user icono"></i> Nombres y apellidos</label>
+            </div>
+            <div class="row g-2">
+              <div class="col-md">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingInput" placeholder="12345567">
+                  <label for="floatingInput"><i class="fas fa-id-card icono"></i> No. Documento</label>
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="form-floating">
+                  <select class="form-select form-select-sm" aria-label="Default select example">
+                    <option selected>Seleccione tipo de documento</option>
+                    <option value="1">Cédula</option>
+                    <option value="2">Tarjeta Identidad</option>
+                    <option value="3">Cédula Extranjería</option>
+                  </select>
+                  <label for="floatingSelectGrid">Tipo de Documento</label>
+                </div>
+              </div>
+            </div>
+            <div class="row g-2">
+              <div class="col-md">
+                <div class="form-floating mb-3">
+                  <input type="tel" class="form-control" id="floatingInput" placeholder="312-123-1234">
+                  <label for="floatingInput"> <i class="fas fa-phone-alt icono"></i>Teléfono</label>
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                  <label for="floatingInput"><i class="fas fa-envelope icono"></i> Email</label>
+                </div>
+              </div>
+            </div>
+
+            <div id="genero" class="form-floating mb-3">
+              <label for="">Género</label>
+              <br>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                  value="option1">
+                <label class="form-check-label" for="inlineRadio1">Masculino</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                  value="option2">
+                <label class="form-check-label" for="inlineRadio2">Femenino</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                  value="option3">
+                <label class="form-check-label" for="inlineRadio3">Otro</label>
+              </div>
+            </div>
+
+            <div class="row g-2">
+              <div class="col-md">
+                <div class="form-floating mb-3">
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>Seleccione el motivo de consulta</option>
+                    <option value="1">Cotización</option>
+                    <option value="2">Compra</option>
+                    <option value="3">Crédito de Vivienda</option>
+                  </select>
+                  <label for="floatingSelectGrid">Motivo de la consulta</label>
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="mb-3">
+                  <label for="formFileMultiple" class="form-label">Escoger archivos de soporte</label>
+                  <input class="form-control" type="file" id="formFileMultiple" multiple>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-floating mb-3">
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                style="height: 100px"></textarea>
+              <label for="floatingTextarea2">Comentarios</label>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-success">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

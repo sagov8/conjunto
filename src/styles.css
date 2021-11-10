@@ -1,4 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-    background-image: radial-gradient(circle at 50% -20.71%, #a7deff 0, #6c90d8 50%, #38496b 100%);
+  background: #EFEFBB;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #D4D3DD, #EFEFBB);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
 }
