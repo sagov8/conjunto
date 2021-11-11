@@ -1,9 +1,26 @@
 .text {
-    color: black;
-    font-size: 5rem;
+  color: black;
+  font-size: 5rem;
 }
 
-.text-p{
-    color: gray;
-    font-size: 2.5rem;
+.text-p {
+  color: gray;
+  font-size: 2.5rem;
+}
+
+.icono:hover {
+    animation-name: pulse_animation;
+    animation-duration: 1000ms;
+    transform-origin:100% 100%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes pulse_animation {
+    0% {
+        box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+      }
+      100% {
+        box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+      }
 }
